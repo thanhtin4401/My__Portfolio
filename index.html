@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- wow library -->
-    <link rel="stylesheet" href="./WOW-master/css/libs/animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="./css/style.css">
@@ -36,14 +39,14 @@
 
     <header class="animate__animated animate__fadeInLeft">
 
-        <a href="#" class="logo"> <img src="./images/logo-full-color.png" alt=""> </a>
+        <a href="#" class="logo"> <img src="./images/logo__black.png" alt=""> </a>
 
         <nav class="navbar-left">
             <a href="#home">home</a>
             <a href="#about">about</a>
+            <a href="#project">project</a>
             <a href="#favorite">favorite</a>
             <a href="#experience">experience</a>
-            <a href="#portfolio">portfolio</a>
             <a href="#contact">contact</a>
 
             <!-- change langudge -->
@@ -74,21 +77,24 @@
     <!-- home start  -->
 
     <div class="clound">
-        <img class="animate__animated animate__fadeInLeft  clound-left animate__delay-1s" src="./images/clound-left.png" alt="">
+        <img class="animate__animated animate__fadeInLeft clound-left animate__delay-1s" src="./images/clound-left.png" alt="">
         <img class="animate__animated animate__fadeInRight clound-right animate__delay-1s" src="./images/clound-right.png" alt="">
     </div>
     <section class="home" id="home">
-        <div class="content ">
-            <span class="animate__animated animate__backInLeft wow animate__delay-1s hi"> hi there... </span>
-            <h3 class="animate__animated animate__backInLeft wow animate__delay-1s"> i am <span> THANH TIN </span> </h3>
-            <p class="info animate__animated animate__backInLeft wow animate__delay-2s"> i want to become front-end developer </p>
-            <p class="text animate__animated animate__backInLeft wow animate__delay-3s"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quidem excepturi natus iste ut. Alias, quod? Earum pariatur obcaecati dolorum! </p>
-            <a href="#about" class="animate__animated animate__backInLeft wow animate__delay-4s  btn">about me</a>
+        <div class="content">
+            <span class="animate__animated animate__backInLeft wow hi"> hi there... </span>
+            <h3 class="animate__animated animate__backInLeft wow"> i am <span> THANH TIN </span> </h3>
+            <p class="info animate__animated animate__backInLeft wow animate__delay-1s"> i want to become front-end developer </p>
+            <p class="text animate__animated animate__backInLeft wow animate__delay-1s"> Welcome you vistit my website, this website have my information and something exciting by me. thanks ^^ </p>
+            <a href="#about" class="animate__animated animate__backInLeft wow animate__delay-4s btns">about me</a>
         </div>
 
         <div class="image animate__animated animate__fadeInUp animate__delay-2s">
             <img src="images/ava2.png" alt="" class="front-img">
             <!-- <img src="images/pattern.png" alt="" class="back-img"> -->
+            <img src="./images/dc1.png" alt="" class="dc1">
+            <img src="./images/dc2.png" alt="" class="dc2">
+            <img src="./images/dc2.png" alt="" class="dc3">
 
         </div>
 
@@ -100,19 +106,19 @@
 
     <section class="about" id="about">
 
-        <h1 class="heading"> about <span> me </span> </h1>
+        <h1 class="heading animate__animated animate__backInLeft wow"> about <span> me </span> </h1>
 
         <div class="row-1">
 
-            <div class="image">
-                <img src="images/about-img.jpg" alt="">
+            <div class="image heading animate__animated animate__backInLeft wow">
+                <img src="images/img__infor.jpg" alt="">
             </div>
 
             <div class="content">
-                <h3> my name is Thanh Tin & i am a font-end developer </h3>
-                <p>I'm studying Management Information System at University of Finance - Marketing. I have experienced at digital design and UX/UI design. And now, I'm studying in Front end Development Program, so I want to become a Web and Mobile App Developer.
+                <h3 class="animate__animated animate__fadeInRightBig animate__delay-1s wow"> my name is Thanh Tin & i am a font-end developer </h3>
+                <p class="animate__animated animate__fadeInRightBig animate__delay-1s wow">I'm studying Management Information System at University of Finance - Marketing. I have experienced at digital design and UX/UI design. And now, I'm studying in Front end Development Program, so I want to become a Web and Mobile App Developer.
                     <br> Thanks for your visiting my introduction.</p>
-                <div class="box-container">
+                <div class="box-container animate__animated animate__fadeInRightBig animate__delay-1s wow">
                     <div class="box">
                         <p> <span> age : </span> 21 </p>
                         <p> <span> gender : </span> male </p>
@@ -126,8 +132,9 @@
                         <p> <span> live in : </span> Ho Chi Minh City </p>
                     </div>
                 </div>
-                <a href="#" class="btn">download CV</a>
-                <a href="#" class="btn">hire me</a>
+                <a href="./images/TRAN-LUONG-THANH-TIN-CV.pdf" target="_blank" class="btns box-container animate__animated animate__fadeInRightBig animate__delay-1s wow">download CV</a>
+                <a href="#" class="btns box-container animate__animated animate__fadeInRightBig animate__delay-1s wow">hire me</a>
+                <img src="./images/dc2.png" alt="">
             </div>
 
         </div>
@@ -139,7 +146,7 @@
     <section class="skill">
         <div class="skill-container">
             <div class="skill__left animate__animated animate__fadeInLeft">
-                <div class="title animate__animated animate__fadeInLeft">
+                <div class="title animate__animated animate__fadeInLeft wow">
                     <h1>My skill &<br> Certificate </h1>
                     <div>
                         <span class="retangle"></span>
@@ -147,10 +154,10 @@
                     </div>
 
                 </div>
-                <img class="wow " src="./images/picVAP.png" alt="">
+                <img class="wow" src="./images/picVAP.png" alt="">
             </div>
             <div class="skill__right">
-                <div class="skill__item wow animate__animated animate__fadeInDown animation__delay-1s">
+                <div class="skill__item skill__item_1 wow animate__animated animate__fadeInDown animation__delay-1s">
                     <div class="skill__item__header">
                         <span>01/</span>
                         <h2>Web UX/UI <br> Design
@@ -165,21 +172,23 @@
                         <p>TELOS Agency</p>
                         <span>
                             Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <a href="https://drive.google.com/file/d/1-OIv-H_KcXdj-0gP2I4MlXh9Z0Fevnvz/view?usp=sharing" target="_blank" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                     <div class="explore__content">
-                        <h3>FIGMA DESIGN</h3>
-                        <p>TELOS Agency</p>
+                        <h3>Designing Mobile & <br> Web App UI/UX basic</h3>
+                        <p>Udemy</p>
                         <span>
-                            Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                       
+                                
+                                Issued Jul 2021 · No Expiration Date</span>
+                        <a href="https://www.udemy.com/certificate/UC-bdb9af0f-6229-4639-b27e-c20d729c5ea7/" target="_blank" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
 
                 </div>
-                <div class="skill__item wow animate__animated animate__fadeInDown animation__delay-2s">
+                <div class="skill__item skill__item_2 wow animate__animated animate__fadeInDown animation__delay-2s">
                     <div class="skill__item__header">
-                        <span>01/</span>
-                        <h2>Web UX/UI <br> Design
+                        <span>02/</span>
+                        <h2>Front end <br> develop web<br>
                             <p>Explore</p>
                         </h2>
                     </div>
@@ -187,24 +196,24 @@
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                     <div class="explore__content">
-                        <h3>FIGMA DESIGN</h3>
-                        <p>TELOS Agency</p>
+                        <h3>JavaScript Algorithms and <br>Data Structures</h3>
+                        <p>freeCodeCamp</p>
                         <span>
-                            Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            Issued Sep 2021 · No Expiration Date</span>
+                        <a href="https://www.freecodecamp.org/certification/thanhtin-4401/javascript-algorithms-and-data-structures" target="_blank" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                     <div class="explore__content">
-                        <h3>FIGMA DESIGN</h3>
-                        <p>TELOS Agency</p>
+                        <h3>Responsive Web Design</h3>
+                        <p>freeCodeCamp</p>
                         <span>
-                            Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            Issued Aug 2021 · No Expiration Date</span>
+                        <a href="https://www.freecodecamp.org/certification/thanhtin-4401/responsive-web-design" target="_blank" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                 </div>
-                <div class="skill__item wow animate__animated animate__fadeInDown animation__delay-3s">
+                <div class="skill__item skill__item_3 wow animate__animated animate__fadeInDown animation__delay-3s">
                     <div class="skill__item__header">
-                        <span>01/</span>
-                        <h2>Web UX/UI <br> Design
+                        <span>03/</span>
+                        <h2>Design <br> social media<br>
                             <p>Explore</p>
                         </h2>
                     </div>
@@ -212,19 +221,15 @@
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                     <div class="explore__content">
-                        <h3>FIGMA DESIGN</h3>
-                        <p>TELOS Agency</p>
+                        <h3>DESIGNING FOR A DIVERSE AND
+                            <BR> INCLUSIVE FUTURE </BR>
+                        </h3>
+                        <p>Future learn</p>
                         <span>
                             Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <a href="https://www.futurelearn.com/certificates/7p5jm3z" target="_blank" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
-                    <div class="explore__content">
-                        <h3>FIGMA DESIGN</h3>
-                        <p>TELOS Agency</p>
-                        <span>
-                            Issued Oct 2021 · No Expiration Date</span>
-                        <a href="" class="show__cer"> Show certificate <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -232,79 +237,156 @@
     </section>
     <!-- about end -->
 
-    <!-- experience start  -->
-    <section class="experience" id="experience">
-        <div class="title">
-            <p>Project</p>
+    <!-- project start  -->
+    <section class="project" id="project">
+        <div class="title__header wow animate__animated animate__fadeInDown animation__delay-1s ">
+
+            <p>- Project Overview-</p>
         </div>
         <nav>
-            <div class="nav nav-tabs mb-3 d-flex justify-content-center" id="nav-tab" role="tablist">
-                <a class="nav-item display-4 nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-                <a class="nav-item display-4 nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-                <a class="nav-item display-4 nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+            <div class="nav nav-tabs mb-3 d-flex justify-content-center wow animate__animated animate__fadeInDown animation__delay-2s" id="nav-tab" role="tablist">
+                <a class="nav-item display-4 nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                <a class="nav-item display-4 nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Code</a>
+                <a class="nav-item display-4 nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Design</a>
             </div>
         </nav>
-        <div class="tab-content" id="nav-tabContent">
+        <div class="tab-content wow animate__animated animate__fadeInLeft animation__delay-3s" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <div class="row">
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-3">
+                    <div class="col-12 col-sm-12 col-lg-4">
                         <div class="item_content">
                             <img src="./images/g1.jpg" class="w-100" alt="">
                             <div class="title">
                                 <h5>Apologetic robot holding flowers</h5>
                                 <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="item_content">
+                            <img src="./images/g1.jpg" class="w-100" alt="">
+                            <div class="title">
+                                <h5>Apologetic robot holding flowers</h5>
+                                <p>Branding</p>
+                                <button class="btnViewProjects">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./images/project_border.png" alt="" class="project__border__left">
+
         </div>
 
 
@@ -318,34 +400,34 @@
     <section class="favorite" id="favorite">
         <div class="favorite__container">
             <div class="fav_left">
-                <div class="title">
+                <div class="title animate__animated animate__bounceInLeft wow">
 
                     <h1>My favorite & <br> Passion </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempore modi <br> non et id, quaerat ab, architecto exercitationem tenetur sint voluptatem adipisci. Nesciunt impedit dicta deserunt illo. Dolorem, soluta nostrum.</p>
                 </div>
                 <div class="fav__content">
-                    <div class="fav__item">
+                    <div class="fav__item animate__animated animate__bounceInLeft animation__delay-1s wow">
                         <p><i class="fa-solid fa-code"></i>Coding</p>
                     </div>
-                    <div class="fav__item">
+                    <div class="fav__item animate__animated animate__bounceInLeft animation__delay-2s wow">
                         <p><i class="fa-solid fa-camera"></i>Design</p>
                     </div>
-                    <div class="fav__item">
+                    <div class="fav__item animate__animated animate__bounceInLeft animation__delay-3s wow">
                         <p><i class="fa-solid fa-book"></i>Read Book</p>
                     </div>
-                    <div class="fav__item">
+                    <div class="fav__item animate__animated animate__bounceInLeft animation__delay-4s wow">
                         <p><i class="fa-solid fa-medal"></i>Badmintant</p>
                     </div>
                 </div>
             </div>
             <div class="fav_right">
                 <div class="item-fav">
-                    <img class="bg__fav__cover" src="./images/bg_fav_cover.png" alt="">
-                    <img src="./images/bg_fav_1.png" alt="" class="bg__color">
-                    <img src="./images/faverite-book.png" alt="" class="pic1">
-                    <img src="./images/faverite-camera-1.png" alt="" class="pic2">
-                    <img src="./images/badminton2.png" alt="" class="pic3">
-                    <img src="./images/faverite_code.png" alt="" class="pic4">
+                    <img class="bg__fav__cover animate__animated animate__bounceInRight animation__delay-1s wow" src="./images/bg_fav_cover.png" alt="">
+                    <img src="./images/bg_fav_1.png" alt="" class="bg__color animate__animated animate__bounceInRight animation__delay-2s wow">
+                    <img src="./images/faverite-book.png" alt="" class="pic1 animate__animated animate__bounceInRight animation__delay-3s wow">
+                    <img src="./images/faverite-camera-1.png" alt="" class="pic2 animate__animated animate__bounceInRight animation__delay-4s wow">
+                    <img src="./images/badminton2.png" alt="" class="pic3 nimate__animated animate__bounceInRight animation__delay-5s wow">
+                    <img src="./images/faverite_code.png" alt="" class="pic4 animate__animated animate__bounceInRight animation__delay-6s wow">
                 </div>
 
             </div>
@@ -355,16 +437,82 @@
 
     <!-- favorite end -->
 
-    <!-- portfolio start  -->
+    <!-- experience -->
 
-    <section class="portfolio" id="portfolio">
+    <section class="experience" id="experience">
+        <h1 class="animate__animated animate__bounceInLeft animation__delay-1s wow">-Experience</h1>
+
+        <div class="experience__container animate__animated animate__bounceInLeft animation__delay-1s wow">
+            <div class="experience__left">
+                <h2>Lorem, ipsum dolor.</h2>
+                <div>
+                    <span class="retangle"></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tempora nam odio iure dolorem reiciendis fugiat recusandae aut! Nemo, molestias. <br> <span>2019-2020</span></p>
+
+                </div>
+            </div>
+            <div class="experience__right">
+                <div class="box-video-experience">
+
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-zWS8lGaLp8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
 
+
+            </div>
+        </div>
+        <div class="experience__container animate__animated animate__bounceInRight animation__delay-2s wow ">
+            <div class="experience__right ">
+
+            </div>
+            <div class="experience__left ">
+                <h2>Lorem, ipsum dolor.</h2>
+                <div>
+                    <span class="retangle "></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tempora nam odio iure dolorem reiciendis fugiat recusandae aut! Nemo, molestias. <br> <span>2019-2020</span></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="experience__container animate__animated animate__bounceInLeft animation__delay-3s wow ">
+            <div class="experience__left ">
+                <h2>Lorem, ipsum dolor.</h2>
+                <div>
+                    <span class="retangle "></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tempora nam odio iure dolorem reiciendis fugiat recusandae aut! Nemo, molestias. <br> <span>2019-2020</span></p>
+
+                </div>
+
+            </div>
+            <div class="experience__right animate__animated animate__bounceInLeft animation__delay-3s wow ">
+
+            </div>
+        </div>
     </section>
 
-    <!-- portfolio end -->
+    <!-- end experience -->
 
-    <!-- contact start  -->
+
+
+
+
+
+
+    <!-- videos -->
+    <!-- <section class="video " id="video ">
+        <div class="videos-container ">
+            <div class="video__item ">your content</div>
+            <div class="video__item ">your content</div>
+            <div class="video__item ">your content</div>
+            <div class="video__item ">your content</div>
+            <div class="video__item ">your content</div>
+        </div>
+    </section> -->
+
+    <!-- videos end -->
+
+    <!-- start contact -->
 
     <section class="contact" id="contact">
 
@@ -375,21 +523,21 @@
             <div class="icons">
                 <i class="fas fa-envelope"></i>
                 <h3>my email</h3>
-                <p>shaikhanas@gmail.com</p>
-                <p>anasbhai@gmail.com</p>
+                <p>thanhtin4401@gmail.com</p>
+                <p>cutin0125@gmail.com</p>
             </div>
 
             <div class="icons">
                 <i class="fas fa-phone"></i>
                 <h3>my number</h3>
-                <p>+123-456-7890</p>
-                <p>+111-222-3333</p>
+                <p>0589190854</p>
+
             </div>
 
             <div class="icons">
                 <i class="fas fa-map-marker-alt"></i>
                 <h3>my address</h3>
-                <p>ajis class, jogeshwaris west, mumbai, india - 400104</p>
+                <p>District 9 Ho Chi Minh City</p>
             </div>
 
         </div>
@@ -404,7 +552,7 @@
 
                 <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
 
-                <input type="submit" class="btn" value="send message">
+                <input type="submit" class="btns" value="send message">
 
             </form>
 
@@ -412,14 +560,23 @@
                 allowfullscreen="" loading="lazy"></iframe>
 
         </div>
+        <div class="later">
+            <div class="later__left">
+                <p>Thanhk you for reading my portfolio</p>
 
+            </div>
+            <div class="later__right">
+                <p>write by Thanh Tin</p>
+
+            </div>
+        </div>
 
     </section>
 
     <!-- contact end -->
 
     <!-- footer  -->
-    <footer class="footer"> <span> thank you </span> for read my portfolio </footer>
+
 
 
     <!-- custom cursors  -->
@@ -444,16 +601,46 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <!-- libr wow -->
-    <script src="./WOW-master/dist/wow.min.js"></script>
+    <script src="./WOW-master/dist/wow.min.js "></script>
     <script>
         new WOW().init();
     </script>
 
+    <!-- slick -->
+    <script type="text/javascript " src="https://code.jquery.com/jquery-1.11.0.min.js "></script>
+    <script type="text/javascript " src="https://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+    <script type="text/javascript " src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+
+
+    <script>
+        $('.videos-container').slick({
+            centerMode: true,
+            centerPadding: '50rem',
+            slidesToShow: 3,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }]
+        });
+    </script>
     <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+    <script src="js/script.js "></script>
 
 </body>
 
